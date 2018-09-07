@@ -1,0 +1,28 @@
+# Site settings
+title: Nectar Research Cloud 101
+email: support@nectar.org.au
+description: Nectar Research Cloud 101
+
+baseurl: "/nectar-101"
+url: https://andybotting.github.io/nectar-101
+git_address: https://github.com/andybotting/nectar-101
+git_edit_address: https://github.com/andybotting/nectar-101/blob/gh-pages
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+
+timezone: Australia/Melbourne
+
+defaults:
+  - scope:
+      path: "" # empty string for all files
+    values:
+      layout: docs
